@@ -1,0 +1,27 @@
+GET http://localhost:8060/student/getAllStudents
+Content-Type: application/json
+
+###
+
+DELETE http://localhost:8060/student/deleteStudent/9012f300-9f61-4b39-99ba-cc7d8f1524d1
+Content-Type: application/json
+
+###
+PUT http://localhost:8060/student/editStudent/d4e8c8ae-9b3a-463c-b540-7de00451a3fc
+Content-Type: application/json
+
+{
+  "uuid": "d4e8c8ae-9b3a-463c-b540-7de00451a3fc",
+  "address": "To`rtko`l",
+  "firstName": "Erkinjonxon",
+  "lastName": "Erkabayev"
+}
+
+###
+POST http://localhost:8060/student/group
+Content-Type: application/json
+
+{
+   "name": "44 guruh",
+   "faculty": "Injinering"
+}
